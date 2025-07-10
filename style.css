@@ -190,6 +190,17 @@ nav {
 	gap: 12px;
 }
 
+.owner-img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.owner-img img {
+	width: 100%;
+	border-radius: 50%;
+}
+
 .owner-info {
 	font-family: var(--inter);
 }
@@ -278,6 +289,7 @@ nav {
 	outline: none;
 }
 
+/* FOOTER AREA CSS */
 .footer-area {
 	padding-top: 104px;
 	padding-bottom: 103px;
