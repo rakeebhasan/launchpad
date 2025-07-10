@@ -277,3 +277,41 @@ nav {
 .input-row textarea:focus {
 	outline: none;
 }
+
+.footer-area {
+	padding-top: 104px;
+	padding-bottom: 103px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+}
+
+.footer-wrpper {
+	max-width: 531px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-wrpper p {
+	color: #8987a1;
+	text-align: center;
+	font-family: var(--inter);
+	line-height: 150%;
+	margin-top: 8px;
+}
+
+.footer-menu {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+	list-style: none;
+	padding-top: 25px;
+}
+
+.footer-menu li a {
+	text-decoration: none;
+	color: #8987a1;
+	font-family: var(--inter);
+	line-height: 150%;
+}
