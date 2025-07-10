@@ -54,6 +54,10 @@ nav {
 	justify-content: space-between;
 }
 
+.logo-card a img {
+	width: 200px;
+}
+
 /* Banner Area CSS */
 .banner-area {
 	padding-top: 158px;
