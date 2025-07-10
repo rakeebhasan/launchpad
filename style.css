@@ -218,3 +218,62 @@ nav {
 .ready-to-focus-wrpper button {
 	margin-bottom: 20px;
 }
+
+/* GET IN TOUCH AREA CSS */
+.get-touch-wrpper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 163px;
+	padding-bottom: 85px;
+}
+
+.get-touch-title {
+	width: 528px;
+}
+
+.get-touch-form {
+	width: 497px;
+}
+
+.get-touch-title h2 {
+	color: #000;
+	font-size: 97px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.get-touch-form form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 19px;
+}
+
+.input-row label {
+	color: #000;
+	font-family: var(--inter);
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 120%;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.input-row input,
+.input-row textarea {
+	padding: 20px 32px;
+	border-radius: 10px;
+	border: 1px solid #d6dded;
+	background: #fff;
+	width: 100%;
+	color: rgba(0, 0, 0, 0.5);
+	font-family: var(--inter);
+	font-size: 20px;
+	line-height: 150%;
+	resize: none;
+}
+
+.input-row input:focus,
+.input-row textarea:focus {
+	outline: none;
+}
