@@ -8,11 +8,13 @@
 
 :root {
 	--inter: "Inter", sans-serif;
+	--titleColor: #252432;
 }
 
 body {
 	font-family: "Raleway", sans-serif;
 	font-size: 16px;
+	font-weight: 400;
 }
 
 /* Common CSS */
@@ -58,7 +60,7 @@ nav {
 }
 
 .banner-area h1 {
-	color: #252432;
+	color: var(--titleColor);
 	text-align: center;
 	font-size: 65px;
 	font-weight: 700;
@@ -89,7 +91,7 @@ nav {
 }
 
 .see-action-desc h2 {
-	color: #252432;
+	color: var(--titleColor);
 	font-size: 42px;
 	font-weight: 700;
 }
@@ -104,4 +106,41 @@ nav {
 
 .see-action-img img {
 	width: 100%;
+}
+
+/* PRODUCTIVE USERS AREA CSS */
+.productive-users-wrpper {
+	border-radius: 24px;
+	background: rgba(78, 71, 255, 0.1);
+	padding: 50px 80px;
+}
+
+.productive-users-wrpper h2 {
+	color: var(--titleColor);
+	text-align: center;
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.users-cards {
+	max-width: 856px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.single-user h3 {
+	color: #4e47ff;
+	font-family: var(--inter);
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.single-user p {
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-family: var(--inter);
+	font-size: 20px;
 }
